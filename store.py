@@ -4,7 +4,7 @@ from myDB import MyDB
 from product import Product
 from category import Category
 
-class Shop:
+class Store:
     def __init__(self, master):
         self.master = master
         self.master.title("Gestion de Stock")
@@ -133,7 +133,7 @@ class Shop:
 
 def main():
     root = Tk()
-    app = Shop(root)
+    app = Store(root)
     root.mainloop()
 
 if __name__ == "__main__":
